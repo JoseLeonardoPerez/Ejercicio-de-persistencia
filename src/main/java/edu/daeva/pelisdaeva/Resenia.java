@@ -1,9 +1,15 @@
 package edu.daeva.pelisdaeva;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 //@Table(name = "resenia")
+@Getter
+@Setter
+@NoArgsConstructor
 public class Resenia {
 
     @Id
@@ -15,5 +21,7 @@ public class Resenia {
     @Column
     private Integer calificacion;
 
-//    private Pelicula pelicula;
+    @ManyToOne
+    private Pelicula pelicula;
+
 }

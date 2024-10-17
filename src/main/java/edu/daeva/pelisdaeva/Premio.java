@@ -6,5 +6,6 @@ public class Premio {
     private TipoDePremio tipoDePremio;
     private Evento evento;
     private Integer cantidadDeVotos;
+
     private List<Pelicula> peliculasNominadas;
 }

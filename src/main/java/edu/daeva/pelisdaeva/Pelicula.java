@@ -1,11 +1,17 @@
 package edu.daeva.pelisdaeva;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.List;
 
 @Entity
 @Table(name = "pelicula")
+@Getter
+@Setter
+@NoArgsConstructor
 public class Pelicula {
 
     @Id
@@ -33,7 +39,6 @@ public class Pelicula {
     @Transient
     private List<Premio> premiosGanados;
 
-    @OneToMany
-    @JoinColumn(name = "pelicula_id", referencedColumnName = "id")
+    @OneToMany(mappedBy = "pelicula")
     private List<Resenia> resenias;
 }
