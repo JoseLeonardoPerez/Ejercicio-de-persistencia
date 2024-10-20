@@ -1,6 +1,5 @@
 package edu.daeva.pelisdaeva.repositories;
 
-import edu.daeva.pelisdaeva.Pelicula;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
