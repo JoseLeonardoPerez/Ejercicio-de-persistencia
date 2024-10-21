@@ -1,7 +1,7 @@
-package edu.daeva.pelisdaeva.ejercicio2.personajes;
+package edu.daeva.pelisdaeva.ejercicio_01.personajes;
 
 
-import edu.daeva.pelisdaeva.ejercicio2.elementos.ElementoDefensor;
+import edu.daeva.pelisdaeva.ejercicio_01.elementos.ElementoDefensor;
 import lombok.Getter;
 import lombok.Setter;
 

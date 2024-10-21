@@ -1,6 +1,6 @@
-package edu.daeva.pelisdaeva.ejercicio1;
+package edu.daeva.pelisdaeva.ejercicio_02;
 
-import edu.daeva.pelisdaeva.ejercicio1.motivaciones.Motivacion;
+import edu.daeva.pelisdaeva.ejercicio_02.motivaciones.Motivacion;
 import lombok.Getter;
 import lombok.Setter;
 

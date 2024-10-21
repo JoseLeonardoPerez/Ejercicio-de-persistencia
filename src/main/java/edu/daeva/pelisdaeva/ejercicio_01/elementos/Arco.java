@@ -1,7 +1,7 @@
-package edu.daeva.pelisdaeva.ejercicio2.elementos;
+package edu.daeva.pelisdaeva.ejercicio_01.elementos;
 
 
-import edu.daeva.pelisdaeva.ejercicio2.personajes.Personaje;
+import edu.daeva.pelisdaeva.ejercicio_01.personajes.Personaje;
 
 public class Arco implements ElementoDefensor{
 

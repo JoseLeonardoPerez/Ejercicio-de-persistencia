@@ -1,7 +1,7 @@
-package edu.daeva.pelisdaeva.ejercicio1.motivaciones;
+package edu.daeva.pelisdaeva.ejercicio_02.motivaciones;
 
-import edu.daeva.pelisdaeva.ejercicio1.Deportista;
-import edu.daeva.pelisdaeva.ejercicio1.Rutina;
+import edu.daeva.pelisdaeva.ejercicio_02.Deportista;
+import edu.daeva.pelisdaeva.ejercicio_02.Rutina;
 
 public class BajarDePeso implements Motivacion{
 

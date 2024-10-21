@@ -1,4 +1,4 @@
-package edu.daeva.pelisdaeva.ejercicio2.personajes;
+package edu.daeva.pelisdaeva.ejercicio_01.personajes;
 
 import lombok.Getter;
 import lombok.Setter;
